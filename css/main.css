@@ -1,0 +1,121 @@
+@charset "UFT-8";
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+}
+.header{
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    float: left;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 2vw;
+    font-weight: 900;
+    padding-top:2vw;
+    padding-bottom: 2vw;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,1);
+    z-index: 100;
+}
+.imgmax{
+    width: 100%;
+    max-height: 100%;
+}
+.banner .phone{
+    position: absolute;
+    right: 5vw;
+    bottom: 0;
+    width: 20vw;
+}
+.banner{
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    float: left;
+    font-size: 1.5VW;
+    position: relative;
+}
+.small{
+    font-size: 1vw;
+}
+.btext{
+    float: left;
+    margin-top: 30vh;
+}
+.proyects{
+    width: 80vw;
+    float: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #313D3F;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    color: white;
+}
+.ptitle{
+    font-size: 2vw;
+    font-weight: 900;
+}
+.item{
+    width: 80vw;
+    float: left;
+    margin-top: 5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.imageitem{
+    margin-top: 2vw;
+    width: 80vw;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+.link{
+    text-align: center;
+    float: right;
+    font-size: 1vw;
+    margin-top: 2vw;
+    color: white;
+    border: 0.2vw solid white;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 29px;
+    transition: all 1s;
+}
+.link:hover{
+    background-color: white;
+}
+.link:hover .white{
+    color: #313D3F;
+}
+.white{
+    color: white;
+}
+.mobile{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    font-size: 3vw;
+    line-height: 100vh;
+    text-align: center;
+    display: none;
+}
+@media screen and (max-width: 1280px){
+    .mobile{
+        display: block;
+    }
+}
